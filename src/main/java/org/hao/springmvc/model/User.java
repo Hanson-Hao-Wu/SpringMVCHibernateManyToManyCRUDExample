@@ -129,6 +129,14 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
+	public Set<UserProfile> getUserProfiles() {
+        return userProfiles;
+    }
+ 
+    public void setUserProfiles(Set<UserProfile> userProfiles) {
+        this.userProfiles = userProfiles;
+    }
 
 	@Override
 	public String toString() {
